@@ -8,7 +8,7 @@ export default function Transaction() {
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 30}}>
           <Text style={{ fontWeight: 'bold', fontSize: 18 }}>Transactions</Text>
-          <Text style={{ marginRight: 20, fontSize: 15, paddingTop: 3 }}>See all</Text>
+          <Text style={{ marginRight: 20, fontSize: 15, paddingTop: 3 }}>Sell All</Text>
         </View>
 
       </View>

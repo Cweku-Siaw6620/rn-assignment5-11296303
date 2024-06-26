@@ -19,6 +19,14 @@ export default function Homescreen() {
     <Text style={{fontWeight:"bold",fontSize:18}} >Kelvin Ashong</Text>
     </View>
 
+    <View style={{marginLeft:30}}>
+      <Image 
+    source={require("./image/search.jpg")}
+    style={styles.searchimage}
+    />
+   </View>
+
+
     </View>
 
 <Image 
@@ -83,6 +91,11 @@ const styles = StyleSheet.create({
       width: 100,
       height: 100,
       borderRadius: 50, 
+    },
+    searchimage: {
+      width: 50,
+      height: 50,
+      borderRadius: 25, 
     },
 
     cardimage:{
