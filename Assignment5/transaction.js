@@ -15,7 +15,7 @@ export default function Transaction() {
 
       <FlatList 
             vertical
-            data={Transaction}
+            data={Transactions}
             renderItem={({ item }) => (
 
                   <View style={styles.contain}>
@@ -42,27 +42,27 @@ export default function Transaction() {
   );
 }
 
-const Popularjobs = [
-    {id: 1, image: require('./image/apple.png'), postion: 'Jnr Executive', company: 'Amazon', 
-      salary: '$96,000/y',},
+const Transactions = [
+    {id: 1, image: require('./image/apple.png'), postion: 'Apple Store', company: 'Entertainment', 
+      salary: '-$5,99',},
 
-    {id: 2, image: require('./image/amazon.png'), postion: 'Product Manager', company: 'Beats', 
-        salary: '$86,000/y',},
+    {id: 2, image: require('./image/amazon.png'), postion: 'Amazon', company: 'Shopping', 
+        salary: '-$12,99',},
 
-    {id: 3, image: require('./image/bolt.png'), postion: 'Product Manager', company: 'Bolt', 
-        salary: '$86,000/y',},
+    {id: 3, image: require('./image/bolt.png'), postion: 'Bolt', company: 'travelling', 
+        salary: '-$30',},
 
-    {id: 4, image: require('./image/shopping.jpeg'), postion: 'Snr Executive', company: 'BurgerKing', 
-        salary: '$99,000/y',},
+    {id: 4, image: require('./image/shopping.jpeg'), postion: 'Grocery', company: 'Shopping', 
+        salary: '-$88',},
 
-    {id: 5, image: require('./image/transaction.png'), postion: 'Product Manager', company: 'Facebook ', 
-        salary: '$78,000/y',},
+    {id: 5, image: require('./image/transaction.png'), postion: 'Money Transfer', company: 'Facebook ', 
+        salary: '$300',},
 
-    {id: 6, image: require('./image/twitter.png'), postion: 'Comus Manager', company: 'Twitter', 
-        salary: '$208,550/y', },
+    {id: 6, image: require('./image/twitter.png'), postion: 'Twitter', company: 'Entertainment', 
+        salary: '$208', },
       
-    {id: 7, image: require('./image/spotify.png'), postion: 'Engineer', company: 'Spotify', 
-        salary: '$102,500/y', },
+    {id: 7, image: require('./image/spotify.png'), postion: 'Spotify', company: 'Music', 
+        salary: '-$7,22', },
 ]
 
 const styles = StyleSheet.create({

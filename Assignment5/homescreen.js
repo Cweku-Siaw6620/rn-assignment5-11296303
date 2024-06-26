@@ -1,9 +1,10 @@
-import { StyleSheet, Text, View,Image } from 'react-native';
+import { StyleSheet, Text, View,Image, ScrollView } from 'react-native';
 import Transaction from './transaction';
 
 export default function Homescreen() {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
+    
 
     <View style={styles.header}>
       <View style={{marginRight:15}}>
@@ -15,7 +16,7 @@ export default function Homescreen() {
 
    <View>
     <Text style={{opacity:0.4}}>Welcome back,</Text>
-    <Text style={{fontWeight:"bold",fontSize:18}} >Abigail Ninsin</Text>
+    <Text style={{fontWeight:"bold",fontSize:18}} >Kelvin Ashong</Text>
     </View>
 
     </View>
@@ -60,7 +61,8 @@ export default function Homescreen() {
 </View>
 
 <Transaction/>
-  </View>
+ 
+  </ScrollView>
   );
 }
 
